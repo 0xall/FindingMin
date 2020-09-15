@@ -8,12 +8,12 @@ minimum or local maximum for polynomial function using Newton Method.
 For printing help messages, use `-h` option.
 
 ```
-python finding_roots.py -h
+python find_min.py -h
 ```
 
 ### Using 1st, 2nd Derivative
 ```
-python finding_roots.py 5 -22.4 15.85272 24.161472 -23.4824832 -f 50 -s 6 -v
+python find_min.py 5 -22.4 15.85272 24.161472 -23.4824832 -f 50 -s 6 -v
 ```
 
 Above command means it uses
@@ -24,7 +24,7 @@ and visualize the graph per every iteration.
 ### Approximation
 
 ```
-python finding_roots.py 5 -22.4 15.85272 24.161472 -23.4824832 -s 10 -f 50 -n 16 --approximation 0.01
+python find_min.py 5 -22.4 15.85272 24.161472 -23.4824832 -s 10 -f 50 -n 16 --approximation 0.01
 ```
 
 For using approximation method, use `--approximation` option. 
